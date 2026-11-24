@@ -12,8 +12,9 @@ export default defineConfig({
             }
         }
     }],
-    build: { target: "es2019", rollupOptions: {
+    build: { target: "es2017", rollupOptions: {
         input: { home: resolve('index.html'), contract: resolve('contract.html'), introduction: resolve('introduction.html'), about: resolve('about.html') },
-        output: { entryFileNames: 'scripts/[name]-[hash].js', chunkFileNames: 'scripts/[name]-[hash].js' }
+        output: { entryFileNames: 'scripts/[name]-[hash].min.js', chunkFileNames: 'scripts/[name]-[hash].min.js' }
     } }
 });
+
