@@ -14,11 +14,3 @@ document.title = `Neelesh Reddi's Noble Raven | ITIS3135 | ${name}`;
 
 // Render before loading validators so they inspect the complete React page.
 flushSync(() => createRoot(document.getElementById('root')).render(<><Header page={name} /><Page /><Footer /></>));
-const cloud = document.createElement('script');
-cloud.src = 'https://lint.page/kit/4d0fe3.js';
-cloud.crossOrigin = 'anonymous';
-document.head.append(cloud);
-const standards = document.createElement('script');
-standards.src = 'https://divonbriesen.github.io/teaching/tools/standards-check.js';
-standards.defer = true;
-document.body.append(standards);
