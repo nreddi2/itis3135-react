@@ -19,7 +19,7 @@ export default function Introduction() {
                     <li><strong>ITCS3162 - Introduction to Data Mining:</strong> Required for my major.</li>
                     <li><strong>DTSC2301 - Modeling and Society A:</strong> Required for my major.</li>
                     <li><strong>DTSC2302 - Modeling and Society B:</strong> Required for my major.</li>
-                    <li><strong>ITIS3135 - Front-End Web Application Development:</strong> An elective that fulfills a requirement for my minor.</li>
+                    <li><strong><a href="contract.html">ITIS3135 - Front-End Web Application Development</a>:</strong> An elective that fulfills a requirement for my minor.</li>
                 </ol>
             </li>
         </ul>
