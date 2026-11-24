@@ -2,13 +2,14 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { resolve } from 'node:path';
 export default defineConfig({
+    base: "./",
     plugins: [react(), {
         name: 'course-validation',
         transformIndexHtml: {
             order: 'post',
             handler(html) {
                 // Keep validators in the required head order after Vite inserts its module.
-                return html.replace('</head>', '<script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" defer></script>\n<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous" defer></script>\n</head>');
+                return html.replace('href="/styles/default.css"', 'href="./styles/default.css"').replace('</head>', '<script src="https://divonbriesen.github.io/teaching/tools/standards-check.js" data-site="course" defer></script>\n<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous" defer></script>\n</head>');
             }
         }
     }],
@@ -17,4 +18,5 @@ export default defineConfig({
         output: { entryFileNames: 'scripts/[name]-[hash].min.js', chunkFileNames: 'scripts/[name]-[hash].min.js' }
     } }
 });
+
 
