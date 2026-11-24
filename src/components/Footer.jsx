@@ -1,0 +1,14 @@
+export default function Footer() {
+return (
+<footer>
+        <nav aria-label="My sites and profiles">
+            <a href="https://webpages.charlotte.edu/nreddi1/">CLT Web</a>{' | '}<a href="https://nreddi2.github.io/">GitHub.io</a>{' | '}<a href="https://github.com/nreddi2">GitHub</a>{' | '}<a href="https://nreddi2.github.io/itis3135/">Course.io</a>{' | '}<a href="https://www.freecodecamp.org/nreddi1">freeCodeCamp</a>{' | '}<a href="https://www.codecademy.com/profiles/nreddi">Codecademy</a>{' | '}<a href="https://www.linkedin.com/in/neelesh-reddi-b532b234b/">LinkedIn</a>
+        </nav>
+        <p><em>Turning curiosity into code.</em></p>
+        <p>Designed by <a href="https://webpages.charlotte.edu/nreddi1/itis3135/reddidesigns.com/">Reddi Designs</a> ©2026</p>
+        <p>Certified in <a href="https://www.freecodecamp.org/certification/nreddi1/responsive-web-design-v9">Responsive Web Design</a></p>
+        <p><a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>{' | '}<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a></p>
+    </footer>
+
+);
+}

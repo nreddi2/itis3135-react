@@ -1,0 +1,31 @@
+export default function About() {
+    return <main>
+        <h2>About</h2>
+        <figure>
+            <img src="images/noble-raven.svg" alt="The Noble Raven course mascot" width="240" height="240" />
+            <figcaption>Learning front-end development, one project at a time.</figcaption>
+        </figure>
+        <p>This course site demonstrates my work for ITIS3135 - Front-End Web Application Development at the University of North Carolina at Charlotte, taught by Mr. D.I. von Briesen. The <a href="https://divonbriesen.github.io/teaching/itis3135/">instructor's teaching site</a> provides more information about the course and its standards.</p>
+        <p>The course gives students practical experience with front-end web application development by building several websites with different purposes. I'll use HTML, CSS, and JavaScript to practice designing pages, connecting them, testing them, and publishing my work. My personal homepage introduces me, this course site collects my assignments, and Reddi Designs represents my fictional design firm.</p>
+        <h3>Tools We Use</h3>
+        <ul>
+            <li><strong>VS Code:</strong> Edit and organize website files.</li>
+            <li><strong>Emmet within VS Code:</strong> Expand shortcuts into HTML and CSS.</li>
+            <li><strong>SFTP via FileZilla:</strong> Transfer local files to Charlotte's webspace.</li>
+            <li><strong>Git via GitHub Desktop and GitHub.com:</strong> Track changes and publish the GitHub Pages copy of the site.</li>
+            <li><strong>Browser tools:</strong> Inspect layouts, debug code, and test navigation.</li>
+            <li><strong>The Accumulus Validator:</strong> Check HTML and review accessibility feedback.</li>
+            <li><strong>The Vicunadator:</strong> Check pages against the course standards.</li>
+        </ul>
+        <h3>Sites and Projects</h3>
+        <ul>
+            <li><a href="https://webpages.charlotte.edu/nreddi1/">Personal home portfolio:</a> A starting point about me and my interests.</li>
+            <li><a href="./">Course site:</a> My ITIS3135 assignments, introduction, and course contract.</li>
+            <li><a href="https://webpages.charlotte.edu/nreddi1/itis3135/reddidesigns.com/">Reddi Designs:</a> A fictional design and consulting firm named after me.</li>
+            <li><a href="https://webpages.charlotte.edu/nreddi1/itis3135/stuff/WhAt%20a%20MeSs%21.HTM">Crappy page:</a> An intentionally bad page that demonstrates design mistakes to avoid elsewhere.</li>
+            <li><strong>Whimsical product company (planned):</strong> A separate website for an imaginative business.</li>
+            <li><strong>Student/colleague/peer management tool (planned):</strong> A project for organizing information about people.</li>
+            <li><strong>Client project website (planned):</strong> A site built around a client's needs.</li>
+        </ul>
+    </main>;
+}
